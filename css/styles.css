@@ -1,1 +1,307 @@
+/***********************************TAG SELECTORS***********************************/
+body{
+    text-align: left;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: black;
+    font-weight: normal;
+}
 
+p{
+    font-size: 2rem;
+    text-align: justify;
+    width: 28%;
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 4.8rem;
+    font-weight: bolder;
+    text-align: left;
+    width: 32%
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    color: white
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+input{
+    font-size: 30px;
+}
+/***********************************CLASS SELECTORS***********************************/
+.top-container{
+    position: relative;
+    padding-bottom: 250px;
+}
+
+.menu-bar{
+    position: absolute; 
+}
+
+.menu{
+    display: inline-block;
+    margin-left: 1800px;
+    font-size: 2rem;  
+}    
+
+.items{
+    padding: 40px;
+}
+
+ .logo{
+    width: 400px;
+    height: 125px;
+    padding-left: 200px; 
+ } 
+
+ .logo1{
+    width: 400px;
+    height: 125px;
+ }
+
+ .top{
+    padding-top: 50px;
+    padding-bottom: 350px;
+    padding-left: 200px;
+ }
+
+ .top-1{
+    top: 300px;
+    position: absolute;
+    margin-left: 1600px;
+ }
+
+ .em1{
+    height: 80px;
+    width: 600px;
+ }
+
+ 
+.middle-container{ 
+   padding-left: 200px;
+   padding-top: 30px;
+   padding-bottom: 100px;
+   position: relative;
+   background-color:hsl(240, 75%, 98%);
+   width: 2910px;
+}
+
+.curve-img{
+    margin-left: 0px;
+    width: 77%;
+}
+
+.mid12{
+    margin-left: 1600px;
+}
+
+.mid11-img{
+    position: absolute;
+    margin-left: 1700px;
+}
+
+.mid13{
+    width: 150%;
+    text-align: left;
+}
+
+.mid2{
+    margin-top: 50px;
+    text-align: left;
+    background-color: white;
+    width: 30%;
+    padding: 30px;
+}
+
+.mid21{
+    width: 90%;
+    font-size: 4rem;
+}
+
+.midp1{
+    width: 25%;
+    text-align: left;
+}
+
+.midp1{
+    width: 25%;
+    text-align: left;
+}
+
+.see{
+    color: hsl(170, 45%, 43%);
+    display: inline;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.arrow-img{
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+    display: inline;
+}
+
+.avatar{
+    float: left;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.person{
+    font-weight: bold;
+    font-size: 2rem;
+    width: 50%;
+}
+
+.position{
+    font-size: 1.5rem;
+    width: 50%;
+}    
+
+.quote{
+    height: 40px;
+    width: 40px;
+}
+
+.quotep{
+    width: 85%;
+    font-weight: bold
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+
+.bottom-container{
+    position: relative; 
+}   
+
+.ebottom{
+    position: absolute;
+    margin-left: 1980px;
+}
+
+.em2{
+    margin-top: 230px;
+    height: 80px;
+    width: 900px;
+    margin-bottom: 60px;
+ }
+
+.bottom1{
+    background-color: hsl(238, 22%, 44%);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 2910px;
+    padding-left: 200px;
+    color: white;
+}
+
+.bottomp{
+    margin-top: 80px;
+    position: relative;
+    font-weight: normal;
+    width: 35%;
+    text-align: left;
+    color: #ffffff;
+    
+}
+
+.bottom2{
+    position: absolute;
+    background-color: hsl(243, 87%, 12%);
+    width: 2910px;
+    height: 600px;
+    padding: 200px 0px 100px 200px;
+    font-size: 2rem;
+    margin-bottom: 100px;
+}
+
+.lastp{
+    color: #ffffff;
+}
+
+.emm{
+    margin-bottom: 60px;
+}
+
+.logoc{
+    position: relative;
+}
+
+.phone{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-top: 40px;
+}
+
+.emailp{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-top: 120px;
+}
+
+
+.contact{
+    position: absolute;
+    margin-left: 100px;
+}
+
+.about{
+    position: absolute;
+    margin-left: 800px;
+}
+
+.others{
+    position: absolute;
+    margin-left: 1800px;
+}
+
+.footerp{
+    margin-top: 150px;
+    
+}
+
+.copyw{
+    position: absolute;
+    margin-top: 800px;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 40px;
+    padding: 20px 90px 20px 90px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+/***********************************ID SELECTORS***********************************/
